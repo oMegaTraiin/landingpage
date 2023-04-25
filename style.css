@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0A2647;
+}
+
+#ulfoot{
+    display:inline;
+}
+.ul{
+    display: inline;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #2C74B3;
+}
+.hover{
+    text-decoration: none;
+    color: white;
+}
+.hover:hover{
+    color: #2C74B3;
+    border-bottom: 2px solid #2C74B3;
+    padding-bottom: 10px;
+}
+header{
+    background-color: #144272;
+    font-family: fantasy;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+}
+#head{
+    color: white;
+    background-color: #205295;
+    font-family: lucida Sans;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.line{
+    border: solid 1px #205295;
+    border-radius: 10px;
+    background-color: #205295;
+    padding-top: 10px;
+    margin-left: 3%;
+    margin-right: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.topics{
+    margin: 1%;
+    background: #144272;
+    border: 1px solid #144272;
+    border-radius: 5px;
+    color: white;
+    padding-left: 3%;
+    font-family: lucida Sans;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footerColorWhite{
+    display: inline;
+    color: white;
+}
+
+.footerColorPurple{
+    display: inline;
+    color: #2C74B3;
+}
+.footer{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.linetext{
+    color: white;
+    padding: 5%;
+    font-family: lucida Sans;
+    font-size: 20px;
+}
+#footer{
+    display: flex;
+    color: white;
+    font-family: lucida Sans;
+    font-size: 13px;
+    background-color: #205295;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-left: 5%;
+}
+#owner{
+    padding: 20px;
+    color: rgb(180, 180, 180);
+    background-color: #0A2647;
+}
